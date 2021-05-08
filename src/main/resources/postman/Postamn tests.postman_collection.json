@@ -1,0 +1,309 @@
+{
+	"info": {
+		"_postman_id": "bb42c53f-8671-4b52-88fe-2b91771b2133",
+		"name": "Postamn tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoicGVkcm8iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIwMjQ3NjA1LCJleHAiOjE2MjAyNDgyMDV9.PmQilHiXgqyDDBE0_wRS-y7Qph79AWsKnDjApO4w_eb40fj-LvtfdZsJX7GIiz5PrxGpAtZANsCGmPkDX1qw3w",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/employee/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"employees"
+					]
+				},
+				"description": "Accediendo con myToken"
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoicGVkcm8iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIwMTI3ODQ1LCJleHAiOjE2MjAxMjg0NDV9.uyxCDpJm0UnUEgJEfgzyqdWMsNdxMdHteOtoy_g2hzzINPM9sPy2dduU0smkgHSTBhL7Odb_UQg6jYb5GjsKlQ",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "user",
+						"value": "pedro",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "pwd",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "email",
+						"value": "dwdw",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "firtsName",
+						"value": "dwdwdw",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "id",
+						"value": "12",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "lastName",
+						"value": "wddwdw",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user",
+							"value": "pedro",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pwd",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "847d533b-6f67-4d35-bb1e-b3a3356e84cb",
+						"type": "text"
+					},
+					{
+						"key": "user",
+						"value": "pedro",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "pwd",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "email",
+						"value": "dwdw",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "firtsName",
+						"value": "dwdwdw",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "id",
+						"value": "12",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "lastName",
+						"value": "wddwdw",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user",
+							"value": "pedro",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "0716aa34-1769-49ea-b22c-a2152a3ea9b2",
+							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/swagger-ui.html#",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"swagger-ui.html"
+					],
+					"hash": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "847d533b-6f67-4d35-bb1e-b3a3356e84cb",
+						"type": "text"
+					},
+					{
+						"key": "user",
+						"value": "pedro",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "pwd",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "email",
+						"value": "dwdw",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "firtsName",
+						"value": "dwdwdw",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "id",
+						"value": "12",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "lastName",
+						"value": "wddwdw",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user",
+							"value": "pedro",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "0716aa34-1769-49ea-b22c-a2152a3ea9b2",
+							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/swagger-ui.html#",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"swagger-ui.html"
+					],
+					"hash": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
